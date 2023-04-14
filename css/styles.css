@@ -42,3 +42,9 @@ main {
     height: auto;
     display: block;
 }
+
+.external-link-info {
+    font-size: 0.8em; /* Adjust the font size to your preference */
+    color: #777; /* Adjust the color to your preference */
+    padding-left: 0.5em; /* Add some space between the link and the description */
+}

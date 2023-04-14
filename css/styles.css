@@ -9,7 +9,17 @@ body {
 header {
     background: #f4f4f4;
     padding: 1rem;
+    position: relative;
 }
+
+h1, h2 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.2rem; /* Adjust the font size of the subheading to your preference */
+}
+
 
 nav {
     background: #333;
@@ -47,4 +57,13 @@ main {
     font-size: 0.8em; /* Adjust the font size to your preference */
     color: #777; /* Adjust the color to your preference */
     padding-left: 0.5em; /* Add some space between the link and the description */
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+    width: 80px; /* Adjust the width to your preference */
+    height: auto;
 }
